@@ -96,7 +96,7 @@ class Store {
     }
 }
 //DOM load event
-document.addEventListener('DOMContentLoaded', Store.displayBooks());
+document.addEventListener('DOMContentLoaded', Store.displayBooks);
 
 //Event Listener for add book
 document.getElementById('book-form').addEventListener('submit', function(e){
